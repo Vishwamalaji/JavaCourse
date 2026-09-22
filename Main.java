@@ -118,24 +118,92 @@ public class Main{
 
         // CALCULATE AREA OF RECTANGLE
 
-        double length = 0;
-        double width = 0;
-        double area = 0;
+        // double length = 0;
+        // double width = 0;
+        // double area = 0;
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter length of rectangle: ");  
-        length = sc.nextDouble();
+        // System.out.print("Enter length of rectangle: ");  
+        // length = sc.nextDouble();
         
-        System.out.print("Enter width of rectangle: ");  
-        width = sc.nextDouble();
+        // System.out.print("Enter width of rectangle: ");  
+        // width = sc.nextDouble();
 
-        area = length*width;
+        // area = length*width;
 
-        System.out.println("The area of rectangle is "+area+" cm²");
-        
+        // System.out.println("The area of rectangle is "+area+" cm²");
+
+
+            // MAD LIBS GAME
+
+        // Scanner sc = new Scanner(System.in);
+      
+        // String adjective1;
+        // String noun;
+        // String adjective2;
+        // String verb;
+        // String adjective3;
+
+        // System.out.print("Enter a adjective1 (description):  ");
+        // adjective1 = sc.nextLine();
+        // System.out.print("Enter a noun: ");
+        // noun = sc.nextLine();
+        // System.out.print("Enter a adjective2 (description): ");
+        // adjective2 = sc.nextLine();
+        // System.out.print("Enter a verb end with -ing(action): ");
+        // verb = sc.nextLine();
+        // System.out.print("Enter a adjective3 (description): ");
+        // adjective3 = sc.nextLine();
+
+
+        // System.out.println("Today i went to "+adjective1+ " zoo.");
+        // System.out.println("In the zoo, i saw a "+noun+" that was "+adjective2);
+        // System.out.println("And the "+noun+" is "+verb);
+        // System.out.println("And i "+adjective3+ "in a zoo.");
+
+        // sc.close();
+
+
+                // ARITHEMATIC OPERATORS
+
+        // int x = 10;
+        // int y = 20;
+
+        // int z = x+y;
+        // int z = x-y;
+        // int z = x*y;
+        // int z = x/y;
+        // int z = x%y;
+
+        // System.out.println(z);
+
+        // AUGAMENTED ASSIGNMENT OPERATOR
+
+        // x += y;
+        // x -= y;
+        // x *= y;
+        // x /= y;
+
+        // System.out.println(x);
+
+
+        // INCREMENT AND DECREMENT
+
+        // x++;
+        // System.out.println(x);
+        // y++;
+        // System.out.println(y);
+        // x--;
+        // System.out.println(x);
+
+
+        // ORDER OF OPERATOR PRECEDENCES [P-E-D-M-A-S]
+
+        // double result = 3 * (4 / 2) + 8 - 2;
+        // System.out.println(result);
+
+
     }
 }
 
-
-        
