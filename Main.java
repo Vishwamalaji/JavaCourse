@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main{
     public static void main(String[]args){
@@ -199,11 +200,110 @@ public class Main{
 
 
         // ORDER OF OPERATOR PRECEDENCES [P-E-D-M-A-S]
-
+  
         // double result = 3 * (4 / 2) + 8 - 2;
         // System.out.println(result);
 
 
+        
+        // SHOPPING CART PROGRAM
+
+        // Scanner sc = new Scanner(System.in);
+
+        // String item;
+        // double price;
+        // int quantity;
+        // double total;
+
+        // System.out.print("Enter what you want to buy?: ");
+        // item = sc.nextLine();
+        // System.out.print("Enter the price of item?: ");
+        // price = sc.nextDouble();
+        // System.out.print("How many items do you want?: ");
+        // quantity = sc.nextInt();
+
+        // total = price*quantity;
+        // System.out.println("\nYou have bought "+quantity+" "+item+"/s");
+        // System.out.println("Total bill amount is: $"+total);
+        
+
+        // sc.close();
+
+
+
+            // CONDITIONAL STATEMENTS
+
+
+    //    int id = 147258741;
+
+    //    Scanner sc = new Scanner(System.in);
+    //    System.out.print("Enter a id: ");
+    //    int userid = sc.nextInt();
+
+    //    if(userid == id){
+    //     System.out.println("Entry passed!");
+    //    }else{
+    //     System.out.println("Entry failed!");
+    //    }
+
+
+    // EXERCISE 2
+    // int marks;
+
+    // Scanner sc = new Scanner(System.in);
+
+    // System.out.print("Enter your marks: ");
+    // marks = sc.nextInt();
+
+    // if(marks >= 90 && marks <= 100){
+    //     System.out.println("Disticntion!");
+    // }else if (marks >= 80 && marks <= 89){
+    //     System.out.println("First class!");
+    // }else if(marks >= 70 && marks <= 79){
+    //     System.out.println("Second class");
+    // }else if(marks >= 50 && marks <= 69){
+    //     System.out.println("PASS");
+    // }else{
+    //     System.out.println("Fail");
+    // }
+
+    // String name;
+
+    // Scanner sc = new Scanner(System.in);
+    // System.out.print("Enter your name: ");
+    // name = sc.nextLine();
+
+    // if(name.isEmpty() == true){
+    //     System.out.println("You haven't entered name yet!");
+    // }else{
+    //     System.out.println("Hello "+name);
+    // }
+
+
+        // RANDOM NUMBERS
+
+    Random random = new Random();
+
+    // int num = random.nextInt(1, 6+1);
+    // System.out.println(num);     
+
+    // double num = random.nextDouble(1, 7);
+    // System.out.print(num);
+
+    // boolean isHeads;
+    // isHeads = random.nextBoolean();
+    
+    // if(isHeads){
+    //     System.out.println("Heads");
+    // }else{
+    //     System.out.println("Tails");
+    // }
+
+
+
+
+
     }
 }
+
 
