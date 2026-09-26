@@ -300,10 +300,70 @@ public class Main{
     // }
 
 
+                // MATH CLASS
 
+            // System.out.println(Math.PI);
+            // System.out.println(Math.E);
+
+            // double result = Math.pow(5, 2);
+            // double result = Math.sqrt(9);
+            // double result = Math.round(52.4);
+            // double result = Math.ceil(24.1);
+            // double result = Math.floor(42.1);
+            // double result = Math.max(47, 255);
+            // double result = Math.min(14, 5);
+
+            // System.out.println(result);
+
+
+            // Scanner sc = new Scanner(System.in);
+
+            // double a;
+            // double b;
+
+            // System.out.print("Enter the length of angle A: ");
+            // a = sc.nextDouble();
+            // System.out.print("Enter the length of angle B: ");
+            // b = sc.nextDouble();
+
+            // double c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+            // System.out.println("The hypotenuse of triangle is: "+c+"cm");
+
+            // double radius;
+            // double circumference;
+            // double area;
+            // double volume;
+
+            // Scanner sc = new Scanner(System.in);
+            // System.out.print("Enter the radius: ");
+            // radius = sc.nextDouble();
+
+            // circumference = 2 * Math.PI * radius;
+            // System.out.printf("The circumfernce is: %.2f\n",circumference);
+            
+            // area = Math.PI * Math.pow(radius, 2);
+            // System.out.printf("The area of circle is: %.2f\n",area);
+            
+            // volume = (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
+            // System.out.printf("The volume  is: %.2f\n",volume);
+
+
+
+            // PRINTF STATEMENT
+
+        // String name = "Tony Stark";
+        // char first_letter = 'T';
+        // int age = 18;
+        // double weight = 77.25;
+        // boolean is_online = true;
+
+        // System.out.printf("My name is %s\n",name);
+        // System.out.printf("My name's first letter is %c\n",first_letter);
+        // System.out.printf("I am %d years old\n",age);
+        // System.out.printf("My weight is %.2f\n",weight);
+        // System.out.printf("Is am i online: %b\n",is_online);
 
 
     }
 }
-
 
