@@ -282,7 +282,7 @@ public class Main{
 
         // RANDOM NUMBERS
 
-    Random random = new Random();
+    // Random random = new Random();
 
     // int num = random.nextInt(1, 6+1);
     // System.out.println(num);     
@@ -364,6 +364,36 @@ public class Main{
         // System.out.printf("Is am i online: %b\n",is_online);
 
 
+        // NESTED IF STATEMENT
+
+        boolean isStudent = true;
+        boolean isSenior = true;
+        double price = 12.99;
+
+        if(isStudent){
+            if(isSenior){
+                System.out.println("You are student and senoir so u get 30% Discount!");
+                price = price * 0.7; 
+                }
+            else{
+                System.out.println("You are student so u get 10% Discount!");
+                price = price * 0.9;
+            }
+        }
+        else{
+            if(isSenior){
+                System.out.println("You are senior so u get 20% Discount!");
+                price = price * 0.8;
+            }
+            else{
+                price *= 1;
+            }
+        }
+            
+        System.out.printf("The ticket price is: $%.2f\n",price);
+
     }
 }
+
+
 
