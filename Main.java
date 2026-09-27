@@ -366,31 +366,73 @@ public class Main{
 
         // NESTED IF STATEMENT
 
-        boolean isStudent = true;
-        boolean isSenior = true;
-        double price = 12.99;
+        // boolean isStudent = true;
+        // boolean isSenior = true;
+        // double price = 12.99;
 
-        if(isStudent){
-            if(isSenior){
-                System.out.println("You are student and senoir so u get 30% Discount!");
-                price = price * 0.7; 
-                }
-            else{
-                System.out.println("You are student so u get 10% Discount!");
-                price = price * 0.9;
-            }
-        }
-        else{
-            if(isSenior){
-                System.out.println("You are senior so u get 20% Discount!");
-                price = price * 0.8;
-            }
-            else{
-                price *= 1;
-            }
-        }
+        // if(isStudent){
+        //     if(isSenior){
+        //         System.out.println("You are student and senoir so u get 30% Discount!");
+        //         price = price * 0.7; 
+        //         }
+        //     else{
+        //         System.out.println("You are student so u get 10% Discount!");
+        //         price = price * 0.9;
+        //     }
+        // }
+        // else{
+        //     if(isSenior){
+        //         System.out.println("You are senior so u get 20% Discount!");
+        //         price = price * 0.8;
+        //     }
+        //     else{
+        //         price *= 1;
+        //     }
+        // }
             
-        System.out.printf("The ticket price is: $%.2f\n",price);
+        // System.out.printf("The ticket price is: $%.2f\n",price);
+
+
+                // STRING METHODS
+
+        String name = "Vishw mlji";
+
+        // int length = name.length();
+        // char letter = name.charAt(5);
+        // int index = name.indexOf(' ');
+        // int lastIndex = name.lastIndexOf('a');
+
+
+        // System.out.println(length);
+        // System.out.println(letter);
+        // System.out.println(index);
+        // System.out.println(lastIndex);
+        // System.out.println(name.trim().toUpperCase());
+        // System.out.println(name.trim().toLowerCase());
+        // System.out.println(name.trim());
+        // System.out.println(name.trim().replace('V', 'I'));
+        // System.out.println(name.trim().isEmpty());
+        // System.out.println(name.trim().isBlank());
+
+
+        // if(name.contains("a")){
+        //     System.out.println("Your name consists atleast one a");
+        // }else{
+        //     System.out.println("Your name didn't consists a");
+
+        // }
+
+
+        // String username = "abc";
+        // String enteredUsername = "ABCD";
+
+        // if(username.equalsIgnoreCase(enteredUsername)){
+        //     System.out.println("LOGIN SUCCESSFULL");
+        // }else{
+        //     System.out.println("LOGIN FALIED!");
+        // }
+        
+        
 
     }
 }
