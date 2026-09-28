@@ -432,8 +432,33 @@ public class Main{
         //     System.out.println("LOGIN FALIED!");
         // }
         
-        
 
+                // SUB STRING
+
+            // String email;
+            // String username;
+            // String domain;
+
+            // Scanner sc = new Scanner(System.in);
+
+            // System.out.print("Enter your email: ");
+            // email = sc.nextLine();
+
+            // if(email.contains("@")){
+            //     username = email.substring(0, email.indexOf("@"));
+            //     domain = email.substring(email.indexOf("@") + 1);
+
+            //     System.out.println("Username: "+username);
+            //     System.out.println("Domain: "+domain);
+            // }else{
+            //     System.out.println("Invalid! Email must contain @");
+            // }
+
+
+
+            
+
+     
     }
 }
 
