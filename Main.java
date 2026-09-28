@@ -455,9 +455,35 @@ public class Main{
             // }
 
 
+                    // TERNARY OPERATOR IN JAVA
+            
+            // int score = 8;
+
+            // String result = (score >= 35) ? "PASS" : "FAIL";
+            // System.out.println(result);
+
+
+            //EVEN OR ODD USING TERNARY OPERATOR
+            // int number = 1;
+
+            // String evenORodd = (number % 2 == 0) ? "EVEN" : "ODD";
+            // System.out.println(evenORodd);2.20462
+
+
+            // int timeofday = 12;
+
+            // String time = (timeofday < 12) ? "A.M" : "P.M";
+
+            // System.out.println(time);
+
+
+            // int annualIncome = 10000;
+
+            // String tax = (annualIncome < 800000) ? "0% TAX" : "5%TAX";
+            // System.out.println(tax);
+
 
             
-
      
     }
 }
