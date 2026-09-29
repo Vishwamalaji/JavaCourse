@@ -499,8 +499,18 @@ public class Main{
             // }
 
 
-            Scanner sc = new Scanner(System.in);
-            
+            // char ch;
+            // Scanner sc = new Scanner(System.in);
+
+            // System.out.print("Enter a character: ");
+            // ch = sc.next().toLowerCase().charAt(0);
+
+            // switch(ch){
+            //     case 'a', 'e', 'i', 'o', 'u' -> System.out.println("Vowel");
+            //     default -> System.out.println("Consonent");
+            // }            
+
+
      
     }
 }
