@@ -511,6 +511,30 @@ public class Main{
             // }            
 
 
+                // LOGICAL OPERATORS
+
+            // int marks = 74;
+
+            // if(marks > 35 && marks < 60){
+            //     System.out.println("second class");
+            // }else if(marks > 60 && marks < 80){
+            //     System.out.println("First class");
+            // }
+
+            
+            // int num = 141;
+
+            // if(num % 2 != 0){
+            //     System.out.println("ODD");
+            // }else{
+                
+            //     System.out.println("EVEN");
+            // }
+
+
+            
+
+            
      
     }
 }
