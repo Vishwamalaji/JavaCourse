@@ -395,7 +395,7 @@ public class Main{
 
                 // STRING METHODS
 
-        String name = "Vishw mlji";
+        // String name = "Vishw mlji";
 
         // int length = name.length();
         // char letter = name.charAt(5);
@@ -532,6 +532,20 @@ public class Main{
             // }
 
 
+
+                        //  WHILE LOOP
+
+            
+        String name = "";
+
+        Scanner sc = new Scanner(System.in);
+
+        while(name.isEmpty()){
+            System.out.print("Enter your name: ");
+            name = sc.nextLine();
+        }
+
+        System.out.println("Hello " + name);
                 
      
     }
