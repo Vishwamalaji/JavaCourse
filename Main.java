@@ -536,16 +536,20 @@ public class Main{
                         //  WHILE LOOP
 
             
-        String name = "";
+        // String name = "";
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
-        while(name.isEmpty()){
-            System.out.print("Enter your name: ");
-            name = sc.nextLine();
-        }
+        // while(name.isEmpty()){
+        //     System.out.print("Enter your name: ");
+        //     name = sc.nextLine();
+        // }
 
-        System.out.println("Hello " + name);
+        // System.out.println("Hello " + name);
+
+
+
+        int 
                 
      
     }
